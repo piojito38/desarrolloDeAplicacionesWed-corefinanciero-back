@@ -13,7 +13,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"
+    allow_origins=["http://localhost:5173",
     "https://desarrollo-de-aplicaciones-wed-core.vercel.app"               
     ],  # React Vite frontend
     allow_credentials=True,
